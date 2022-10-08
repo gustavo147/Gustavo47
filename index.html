@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <style>
+
+        .card-text{
+
+
+          font-size: 20px;
+          color: #5F9EA0;
+        }
+
+
+        .card{
+            margin: auto;
+            width: 50%;
+            top: 80px;
+        }      
+
+          .card-title{
+            font-size: 25px;
+            font-family: Georgia;
+
+
+          }
+
+
+         .texto1{
+            margin: auto;
+            width: 50%;
+            top: 20%;
+
+            text-align: center;
+          
+            font-family: Arial;
+
+            font-size: 30px;
+
+         }
+
+
+
+       .menu{
+        height: 550px;
+        background-color: #e6e6e6;
+
+        width: 250px;
+       }
+       .list-group{
+
+        background-color:  #e6e6e6;
+       }
+       .list-group-item{
+
+        background-color:  #e6e6e6;
+       } 
+
+        
+    </style>
+  </head>
+  <body>
+    
+
+
+</div>
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+       
+      </button>
+  </div>
+</nav>
+
+
+
+      <br><br>
+      <div class="texto1">
+        <p>TecLaser Soluções em Tacnologia da Informação.</p>
+
+      </div>
+       
+        <div class="card" style="width: 40rem; height: 300px;">
+        <div class="card-body">
+        <h5 class="card-title">TecLaser.</h5>
+        <h6 class="card-subtitle mb-2 text-muted"> </h6>
+        <p class="card-text">TecLaser empresa de tecnologia e suporte. Conheça nossos serviços de suporte técnico.</p>
+        <a href="CadastraEmpresa.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Seja Nosso Cliente</a>
+        <button class="btn btn-secondary btn-lg active"  id="exampleModalLabel" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" role="button" aria-pressed="true">Logar</button>
+      </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title"  id="exampleModalLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form method="POST" action="../EmpresaDAO.php" >
+           <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Empresa:</label>
+            <input type="text" name="nome_empresa" required class="form-control" id="recipient-name">
+          </div>
+          
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Login:</label>
+            <input type="text" name="usuario" required class="form-control" id="recipient-name">
+          </div>
+       
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Senha:</label>
+            <input type="password" name="senha" required class="form-control" id="recipient-name">
+          </div>
+      
+    
+        
+      </div>
+      <div class="modal-footer">
+        <button  type="reset" class="btn btn-secondary" data-bs-dismiss="modal">Cancela</button>
+        <input type="submit" class="btn btn-primary" name="logar"></input>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+          
+<div class="radape">
+        <footer>
+
+        </footer>  
+    </div>
+       
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+  </body>
+</html>
